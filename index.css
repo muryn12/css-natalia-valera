@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    width: 600px;
+    height: 200px;
+    margin: 10px auto;
+    border: 6px double red;
+    display: flex;
+    cursor: pointer;
+}
+.letter-one{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background: linear-gradient(#f27835, red);
+    text-align: center;
+    font-size: 110px;
+    color: red;
+}
+.letter-one:hover{
+    background: linear-gradient(#c4ff0e, #f27835);
+    color:#076f25;
+}
+.letter-two{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background: linear-gradient(#c4ff0e, #f27835);
+    text-align: center;
+    font-size: 110px;
+    color: purple;
+}
+.letter-two:hover{
+    background: linear-gradient(#f0e2f0, #ee25f2);
+    color: brown;
+}
+.letter-three{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background: linear-gradient(#00a8f3, #fff200);
+    text-align: center;
+    font-size: 110px;
+    color: yellow;
+}
+.letter-three:hover{
+    background: linear-gradient(#c4ff0e, #f27835);
+    color: purple;
+}
+.letter-four{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background: linear-gradient(to right, #8BC34A , #00BCD4);
+    text-align: center;
+    font-size: 110px;
+    color: beige;
+}
+.letter-four:hover{
+    background: linear-gradient(#c4ff0e, #f27835);
+    color: #0918f6;
+}
+.letter-five{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background: linear-gradient(#f609ee, #09e0f4);
+    text-align: center;
+    font-size: 110px;
+    color: brown;
+}
+.letter-five:hover{
+    background: linear-gradient(to right, #8BC34A , #00BCD4);
+    color: #08952f;
+}
+.letter-six{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background: linear-gradient(to right, #f8eab4, #0a19f1);
+    text-align: center;
+    font-size: 110px;
+    color: red;
+}
+.letter-six:hover{
+    background: linear-gradient(to right, #8BC34A , #00BCD4);
+    color: orange;
+}
+.letter-seven{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background: linear-gradient(#ffaec8, #f10ed3);
+    text-align: center;
+    font-size: 110px;
+    color: #0a19f1;
+}
+.letter-seven:hover{
+    background: linear-gradient(to right, #8BC34A , #00BCD4);
+    color: #1e1d1d;
+}
